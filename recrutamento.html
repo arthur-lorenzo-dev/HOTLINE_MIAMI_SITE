@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotline Miami - Alistamento</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>50 BLESSINGS</h1>
+            <p>Junte-se à causa patriótica</p>
+        </header>
+        <nav>
+            <h3>MENU</h3>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="personagens.html"> Personagens</a></li>
+                <li><a href="arsenal.html"> Arsenal</a></li>
+                <li><a href="mascaras.html"> Máscaras</a></li>
+                <li><a href="fases.html"> Fases</a></li>
+                <li><a href="trilha-sonora.html"> Trilha Sonora</a></li>
+                <li><a href="recrutamento.html" style="background:var(--neon-pink); color:white;">Alistamento</a></li>
+                <li><a href="contato.html"> Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formulário de Inscrição</h2>
+                <p style="color: #ccc; font-style: italic;">"Nós somos uma organização patriótica. Queremos ver a América grande novamente. Assine nossa newsletter para receber... brindes exclusivos."</p>
+                
+                <form action="#" method="get">
+                  
+                    <label for="codename">Codinome Desejado:</label>
+                    <input type="text" id="codename" name="codename" placeholder="Ex: Jacket" required>
+
+                    
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="18" max="99" required>
+
+                  
+                    <label for="telefone">Número de Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXX-XXXX" required>
+                    <small style="color:#666;">*Usaremos este número para deixar suas "instruções".</small>
+
+                    
+                    <label for="mascara">Qual animal define seu espírito?</label>
+                    <select id="mascara" name="mascara">
+                        <option value="richard">Galo (Richard)</option>
+                        <option value="rasmus">Coruja (Rasmus)</option>
+                        <option value="tony">Tigre (Tony)</option>
+                        <option value="aubrey">Porco (Aubrey)</option>
+                        <option value="donjuan">Cavalo (Don Juan)</option>
+                    </select>
+
+                    <label>Preferência de Abordagem:</label>
+                    <div class="form-group-inline">
+                        <input type="radio" id="melee" name="estilo" value="melee" checked>
+                        <label for="melee" style="display:inline; color:white;">Corpo a Corpo (Silencioso)</label>
+                    </div>
+                    <div class="form-group-inline">
+                        <input type="radio" id="guns" name="estilo" value="guns">
+                        <label for="guns" style="display:inline; color:white;">Armas de Fogo (Barulhento)</label>
+                    </div>
+
+                    <label for="data_inicio">Disponibilidade para início:</label>
+                    <input type="date" id="data_inicio" name="data_inicio">
+
+                    <label for="patriotismo">Nível de Patriotismo:</label>
+                    <input type="range" id="patriotismo" name="patriotismo" min="0" max="100" style="width:100%;">
+
+                    <label>Habilidades Especiais:</label>
+                    <div class="form-group-inline">
+                        <input type="checkbox" id="dirigir" name="habilidade1" value="dirigir">
+                        <label for="dirigir" style="display:inline; color:white;">Direção Ofensiva</label>
+                    </div>
+                    <div class="form-group-inline">
+                        <input type="checkbox" id="luta" name="habilidade2" value="luta">
+                        <label for="luta" style="display:inline; color:white;">Artes Marciais</label>
+                    </div>
+
+                    <div class="form-group-inline">
+                        <input type="checkbox" id="discreto" name="habilidade3" value="discreto">
+                        <label for="discreto" style="display:inline; color:white;">Discrição</label>
+                    </div>
+
+                
+                    <label for="motivo">Por que você gosta de machucar outras pessoas?</label>
+                    <textarea id="motivo" name="motivo" rows="4" placeholder="Seja sincero..."></textarea>
+
+                  
+                    <label for="cor">Cor da sua roupa favorita:</label>
+                    <input type="color" id="cor" name="cor" value="#ff00ff" style="width: 100px; height: 40px;">
+
+                    <hr style="border-color: #333; margin: 20px 0;">
+
+                    <div class="form-group-inline">
+                        <input type="checkbox" id="termos" required>
+                        <label for="termos" style="display:inline; color:var(--neon-cyan);">Aceito receber chamadas a qualquer hora da noite.</label>
+                    </div>
+
+                    <button type="submit">ENVIAR INSCRIÇÃO</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p><a href="#top">Voltar ao Topo</a></p>
+        <div class="footer-links" style="margin: 20px 0;">
+    
+    
+    <a href="mailto:?subject=Confira%20este%20Fan%20Site%20de%20Hotline%20Miami!&body=Olha%20que%20incrível%20este%20site%20sobre%20Hotline%20Miami%20que%20eu%20encontrei.">
+        [ E-Mail ]
+    </a>
+
+    <span style="color: #555;">|</span> 
+
+    <a href="https://twitter.com/intent/tweet?text=Hotline+Miami" target="_blank" style="margin: 0 15px; color: #ff00ff; text-decoration: none;">
+        [  Twitter ]
+    </a>
+
+    <span style="color: #555;">|</span> 
+
+    <a href="https://api.whatsapp.com/send?text=Hotline+Miami" target="_blank" style="margin: 0 15px; color: #00ff00; text-decoration: none;">
+        [  Zap ]
+    </a>
+</div> 
+    <p>&copy; 2025 HotlineMiami - Desenvolvido por Fã</p>
+        </footer>
+    </div>
+</body>
+</html>
